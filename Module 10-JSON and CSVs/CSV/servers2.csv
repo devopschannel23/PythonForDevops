@@ -1,0 +1,4 @@
+hostname,env,cpu_usage
+web01,Prod, 45
+web02, prod ,76
+ web03,Dev,89

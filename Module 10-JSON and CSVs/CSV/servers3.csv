@@ -1,0 +1,4 @@
+hostname,environment
+mycompanyapp1.com,prod
+google.com,prod
+mycompanyapp3.com,dev

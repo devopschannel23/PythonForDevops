@@ -1,0 +1,6 @@
+application,environment,version,deployed_by,status,deployment_time
+payment-api,prod,v2.4.1,github-actions,SUCCESS,2026-08-22T09:30:00
+user-api,prod,v1.8.2,github-actions,SUCCESS,2026-08-22T10:15:00
+order-api,prod,v4.2.0,jenkins,SUCCESS,2026-08-22T10:45:00
+catalog-api,dev,v3.1.0,jenkins,SUCCESS,2026-08-22T11:00:00
+notification-api,prod,v1.5.0,github-actions,FAILED,2026-08-22T11:20:00

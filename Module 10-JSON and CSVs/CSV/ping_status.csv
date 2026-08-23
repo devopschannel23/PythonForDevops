@@ -1,0 +1,4 @@
+hostname,env,status
+mycompanyapp1.com,prod,DOWN
+google.com,prod,UP
+mycompanyapp3.com,dev,DOWN

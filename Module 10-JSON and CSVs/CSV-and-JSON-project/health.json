@@ -1,0 +1,39 @@
+{
+    "applications": [
+        {
+            "application": "payment-api",
+            "status": "healthy",
+            "cpu": 45,
+            "memory": 62,
+            "error_rate": 0.2
+        },
+        {
+            "application": "user-api",
+            "status": "unhealthy",
+            "cpu": 91,
+            "memory": 88,
+            "error_rate": 5.7
+        },
+        {
+            "application": "order-api",
+            "status": "healthy",
+            "cpu": 55,
+            "memory": 65,
+            "error_rate": 0.4
+        },
+        {
+            "application": "catalog-api",
+            "status": "healthy",
+            "cpu": 35,
+            "memory": 45,
+            "error_rate": 0.1
+        },
+        {
+            "application": "notification-api",
+            "status": "unhealthy",
+            "cpu": 87,
+            "memory": 92,
+            "error_rate": 8.4
+        }
+    ]
+}

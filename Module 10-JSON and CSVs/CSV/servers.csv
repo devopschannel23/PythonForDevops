@@ -1,0 +1,4 @@
+hostname,ip,environment,os
+web01,10.0.2.3,productioñ,windows
+web02,10.0.5.7,development,ubuntu
+web03,10.5.67.78,productioñ,macOS
