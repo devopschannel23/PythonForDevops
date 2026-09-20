@@ -1,0 +1,3 @@
+2026-09-20 19:59:21,642 - INFO - Starting deployment
+2026-09-20 19:59:21,642 - DEBUG - Debug mode enabled
+2026-09-20 19:59:21,642 - ERROR - Something is wrong, DB is un-reachable!
