@@ -1,0 +1,23 @@
+
+> order-service@1.0.0 start
+> fastify start -l info app.js
+
+
+/app/node_modules/avvio/lib/plugin.js:114
+      const readyTimeoutErr = new AVV_ERR_PLUGIN_EXEC_TIMEOUT(name)
+                              ^
+FastifyError: Plugin did not start in time: 'messagequeue-auto-0'. You may have forgotten to call 'done' function or to resolve a Promise
+    at Timeout._onTimeout (/app/node_modules/avvio/lib/plugin.js:114:31)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'AVV_ERR_PLUGIN_EXEC_TIMEOUT',
+  statusCode: 500,
+  fn: <ref *1> [AsyncFunction (anonymous)] {
+    default: [Circular *1],
+    Symbol(skip-override): true,
+    Symbol(fastify.display-name): 'messagequeue-auto-0',
+    Symbol(plugin-meta): { name: 'messagequeue-auto-0' }
+  }
+}
+
+Node.js v24.14.1

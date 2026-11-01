@@ -1,0 +1,6 @@
+KUBERNETES CLUSTER HEALTH REPORT
+2026-11-01 11:49:29.201354
+
+Unhealthy Nodes: []
+Unhealthy Pods: [('azure-store', 'order-service-c676f6cf-m4mfw')]
+Unhealthy Deployments: ['order-service']
